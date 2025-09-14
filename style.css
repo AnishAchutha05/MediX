@@ -721,6 +721,11 @@ background-color: plum;
   }
 }
 
+.contact-left button img{
+    margin-left:5px;
+}
+
 html{
     scroll-behavior: smooth;
 }
+
