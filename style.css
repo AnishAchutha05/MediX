@@ -264,7 +264,7 @@ main{
     font-size: 1rem;
     font-weight: 600;
     padding:10px 20px;
-    background: rgb(181, 9, 181);
+    background: red;
     border:none;
     border-radius: 2.5rem;
     transition: 0.2s ease-in-out;
@@ -323,7 +323,7 @@ i.bx{
 
 
 .login-btn:hover{
-    background: purple;
+    background: rgb(206, 8, 8);
 }
 
 .register-form p span{
@@ -728,5 +728,6 @@ background-color: plum;
 html{
     scroll-behavior: smooth;
 }
+
 
 
