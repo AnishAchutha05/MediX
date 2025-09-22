@@ -73,7 +73,6 @@ body{
 
 .side{
     font-size:2rem;
-    font-weight:600;
     align-items: center;
     color:white;
     display: none;
@@ -90,17 +89,20 @@ body{
      height: 100%;
      background:black;
      backdrop-filter: blur(10px);
-     box-shadow: 0 -4px 10px rgb(49, 49, 49) ;
+     box-shadow: 0 -4px 10px rgb(77, 77, 77) ;
      color: #fff;
+     border-top-left-radius: 1rem;
+     border-bottom-left-radius: 1rem;
      padding: 20px;
      transition: right 0.3s ease-in-out;
      z-index: 1001;
+     opacity: 0.9;
  }
  .sidebar.active {
      right: 0;
  }
  .close-btn {
-     font-size: 24px;
+     font-size: 2rem;
      cursor: pointer;
      text-align: left;
  }
@@ -318,7 +320,7 @@ main{
         .card-img svg {
             width: 60px;
             height: 60px;
-            color: #27aea1;
+            color: teal;
             transition: transform 0.3s ease;
         }
 
@@ -380,7 +382,7 @@ main{
     justify-content: space-evenly;
     padding: 40px 50px;
     max-width: 1200px;
-    background: olive; 
+    background:teal; 
     border-radius: 1rem;
     margin:20px auto;
     overflow-x: hidden;
