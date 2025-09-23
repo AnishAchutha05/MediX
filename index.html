@@ -231,12 +231,12 @@
 
 
  <div class="contact" id="contact">
-           <form  method="POST" class="contact-left">
+           <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="contact-left-title">
                 <h2>Get In Touch</h2>
                 <hr>
             </div>
-            
+            <input type="hidden" name="access_key" value="e3ed9d2a-5fe0-46a8-bfb4-32c3b62bd7d4">
             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>  
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
@@ -421,3 +421,4 @@ window.addEventListener('load', () => {
 </body>
 
 </html>
+
